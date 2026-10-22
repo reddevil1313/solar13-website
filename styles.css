@@ -146,6 +146,25 @@ p {
   font-size: 20px;
 }
 
+.founder {
+  display: flex;
+  gap: 32px;
+  align-items: flex-start;
+}
+
+.founder-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.linkedin {
+  color: #e07b1a;
+  font-weight: 500;
+}
+
 .services {
   margin: 0 0 20px;
   padding-left: 20px;
@@ -238,5 +257,15 @@ p {
 
   .section {
     padding: 48px 0;
+  }
+
+  .founder {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .founder-photo {
+    width: 120px;
+    height: 120px;
   }
 }
