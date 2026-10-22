@@ -233,13 +233,12 @@ p { margin: 0 0 1em; }
 .founder h2 { margin-bottom: 0; }
 
 .portrait {
-  aspect-ratio: 1;
   padding: 12px;
   background: var(--sheet);
   border: 1px solid var(--ink);
 }
 
-.portrait img { width: 100%; height: 100%; object-fit: cover; }
+.portrait img { width: 100%; height: auto; aspect-ratio: 1; object-fit: cover; }
 
 .founder-text { max-width: 62ch; }
 .role { margin: 8px 0 24px; font-family: var(--mono); font-size: .85rem; text-transform: uppercase; color: var(--amber-dark); }
